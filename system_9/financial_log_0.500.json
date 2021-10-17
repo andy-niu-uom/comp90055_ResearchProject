@@ -1,0 +1,32 @@
+{
+  "nodes": [
+    {"label": "__INITIAL__", "freq": 6801, "id": 0},
+    {"label": "A_SUBMITTED", "freq": 6801, "id": 1},
+    {"label": "__FINAL__", "freq": 6801, "id": 17},
+    {"label": "A_PARTLYSUBMITTED", "freq": 6801, "id": 2},
+    {"label": "A_PREACCEPTED", "freq": 1500, "id": 3},
+    {"label": "A_DECLINED", "freq": 5900, "id": 20},
+    {"label": "W_Completeren aanvraag", "freq": 9850, "id": 4},
+    {"label": "A_CANCELLED", "freq": 840, "id": 21},
+    {"label": "W_Afhandelen leads", "freq": 2515, "id": 22},
+  ],
+  "arcs": [
+    {"from": 0, "to": 1, "freq": 6801},
+    {"from": 1, "to": 2, "freq": 6801},
+    {"from": 2, "to": 3, "freq": 1500},
+    {"from": 2, "to": 20, "freq": 5301},
+    {"from": 3, "to": 4, "freq": 857},
+    {"from": 3, "to": 22, "freq": 643},
+    {"from": 4, "to": 4, "freq": 7286},
+    {"from": 4, "to": 17, "freq": 1125},
+    {"from": 4, "to": 20, "freq": 599},
+    {"from": 4, "to": 21, "freq": 840},
+    {"from": 20, "to": 4, "freq": 599},
+    {"from": 20, "to": 17, "freq": 3429},
+    {"from": 20, "to": 22, "freq": 1872},
+    {"from": 21, "to": 4, "freq": 465},
+    {"from": 21, "to": 17, "freq": 375},
+    {"from": 22, "to": 4, "freq": 643},
+    {"from": 22, "to": 17, "freq": 1872}
+  ]
+}
