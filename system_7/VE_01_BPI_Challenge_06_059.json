@@ -1,0 +1,94 @@
+{
+	"nodes": [
+{"label":"Process Start", "freq": 8029, "id":  1},
+		{"label":"A_SUBMITTED", "freq": 8029, "id":  2},
+		{"label":"A_PARTLYSUBMITTED", "freq": 8029, "id":  3},
+		{"label":"A_DECLINED", "freq": 6724, "id":  4},
+		{"label":"A_PREACCEPTED", "freq": 2343, "id":  5},
+		{"label":"W_Afhandelen leads", "freq": 3155 , "id": 6},
+		{"label":"W_Completeren aanvraag", "freq": 2343 , "id": 7},
+		{"label":"A_ACCEPTED", "freq": 265 , "id": 8},
+		{"label":"O_SELECTED", "freq": 265 , "id": 9},
+		{"label":"A_FINALIZED", "freq": 265 , "id": 10},
+		{"label":"O_CREATED", "freq": 265 , "id": 11},
+		{"label":"O_SENT", "freq": 265 , "id": 12},
+		{"label":"W_Nabellen offertes", "freq": 265 , "id": 13},
+		{"label":"A_CANCELLED", "freq": 1229 , "id": 14},
+		{"label":"O_CANCELLED", "freq": 232 , "id": 15},
+		{"label":"W_Beoordelen fraude", "freq": 32 , "id": 16},
+		{"label":"Process End", "freq": 8029 , "id": 17}
+	],
+	"arcs": [
+		{"from":1,"to":2,"freq":8029},
+		{"from":2,"to":3,"freq":8029},
+		{"from":3,"to":4,"freq":5301},
+		{"from":3,"to":5,"freq":2273},
+		{"from":3,"to":6,"freq":423},
+		{"from":3,"to":16,"freq":32},
+		{"from":4,"to":6,"freq":2225},
+		{"from":4,"to":7,"freq":1038},
+		{"from":4,"to":16,"freq":32},
+		{"from":4,"to":17,"freq":3429},
+		{"from":5,"to":4,"freq":160},
+		{"from":5,"to":6,"freq":930},
+		{"from":5,"to":7,"freq":953},
+		{"from":5,"to":8,"freq":166},
+		{"from":5,"to":14,"freq":134},
+		{"from":6,"to":4,"freq":593},
+		{"from":6,"to":5,"freq":70},
+		{"from":6,"to":6,"freq":82},
+		{"from":6,"to":7,"freq":635},
+		{"from":6,"to":14,"freq":55},
+		{"from":6,"to":17,"freq":2225},
+		{"from":7,"to":4,"freq":638},
+		{"from":7,"to":7,"freq":1281},
+		{"from":7,"to":8,"freq":99},
+		{"from":7,"to":13,"freq":265},
+		{"from":7,"to":14,"freq":808},
+		{"from":7,"to":17,"freq":1710},
+		{"from":8,"to":9,"freq":265},
+		{"from":9,"to":10,"freq":265},
+		{"from":10,"to":11,"freq":265},
+		{"from":11,"to":12,"freq":265},
+		{"from":12,"to":7,"freq":265},
+		{"from":13,"to":13,"freq":265},
+		{"from":13,"to":14,"freq":124},
+		{"from":13,"to":15,"freq":108},
+		{"from":13,"to":17,"freq":198},
+		{"from":14,"to":7,"freq":629},
+		{"from":14,"to":13,"freq":73},
+		{"from":14,"to":15,"freq":124},
+		{"from":14,"to":17,"freq":403},
+		{"from":15,"to":13,"freq":92},
+		{"from":15,"to":17,"freq":32},
+		{"from":16,"to":17,"freq":32}
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
