@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {"label": "__INITIAL__", "freq": 41062, "id": 0},
+    {"label": "initialize", "freq": 41062, "id": 1},
+    {"label": "performed", "freq": 41062, "id": 2},
+    {"label": "__FINAL__", "freq": 41062, "id": 3},
+    {"label": "save", "freq": 24898, "id": 4},
+  ],
+  "arcs": [
+    {"from": 0, "to": 1, "freq": 41062},
+    {"from": 1, "to": 2, "freq": 41062},
+    {"from": 2, "to": 3, "freq": 30734},
+    {"from": 2, "to": 4, "freq": 10328},
+    {"from": 4, "to": 3, "freq": 10328},
+    {"from": 4, "to": 4, "freq": 14570}
+  ]
+}
