@@ -1,0 +1,32 @@
+{
+  "nodes": [
+    {"label": "__INITIAL__", "freq": 43808, "id": 0},
+    {"label": "initialize", "freq": 43808, "id": 1},
+    {"label": "begin editing", "freq": 43808, "id": 2},
+    {"label": "finish editing", "freq": 43808, "id": 3},
+    {"label": "__FINAL__", "freq": 43808, "id": 4},
+    {"label": "save", "freq": 29057, "id": 5},
+    {"label": "take original document", "freq": 798, "id": 6},
+    {"label": "insert document", "freq": 6, "id": 7},
+    {"label": "change department", "freq": 11, "id": 8},
+  ],
+  "arcs": [
+    {"from": 0, "to": 1, "freq": 43808},
+    {"from": 1, "to": 2, "freq": 43808},
+    {"from": 2, "to": 3, "freq": 43808},
+    {"from": 3, "to": 4, "freq": 31806},
+    {"from": 3, "to": 5, "freq": 11208},
+    {"from": 3, "to": 6, "freq": 786},
+    {"from": 3, "to": 8, "freq": 8},
+    {"from": 5, "to": 4, "freq": 11391},
+    {"from": 5, "to": 5, "freq": 17650},
+    {"from": 5, "to": 6, "freq": 7},
+    {"from": 5, "to": 7, "freq": 6},
+    {"from": 5, "to": 8, "freq": 3},
+    {"from": 6, "to": 4, "freq": 600},
+    {"from": 6, "to": 5, "freq": 193},
+    {"from": 6, "to": 6, "freq": 5},
+    {"from": 7, "to": 5, "freq": 6},
+    {"from": 8, "to": 4, "freq": 11}
+  ]
+}
