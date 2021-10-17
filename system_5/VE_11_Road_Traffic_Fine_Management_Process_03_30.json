@@ -1,0 +1,36 @@
+{
+	"nodes": [
+		{"label":"Process Start", "freq": 142394, "id":  1},
+		{"label":"Create Fine", "freq": 142394, "id":  2},
+		{"label":"Send Fine", "freq": 96023, "id":  3},
+		{"label":"Insert Fine Notification", "freq": 72544, "id":  4},
+		{"label":"Add penalty", "freq": 72544, "id":  5},
+		{"label":"Send for Credit Collection", "freq": 54426, "id":  6},
+		{"label":"Payment", "freq": 65226, "id":  7},
+		{"label":"Insert Date Appeal to Prefecture", "freq": 2397, "id":  8},
+		{"label":"Send Appeal to Prefecture", "freq": 2397, "id":  9},
+		{"label":"Process End", "freq": 142394, "id":  10}
+	],
+	"arcs": [
+		{"from":1,"to":2,"freq":140828},
+		{"from":1,"to":7,"freq":1566},
+		{"from":2,"to":3,"freq":96023},
+		{"from":2,"to":7,"freq":44805},
+		{"from":2,"to":10,"freq":1566},
+		{"from":3,"to":4,"freq":72544},
+		{"from":3,"to":7,"freq":3134},
+		{"from":3,"to":10,"freq":20345},
+		{"from":4,"to":5,"freq":66894},
+		{"from":4,"to":7,"freq":3253},
+		{"from":4,"to":8,"freq":2397},
+		{"from":5,"to":6,"freq":54426},
+		{"from":5,"to":9,"freq":2397},
+		{"from":6,"to":10,"freq":54426},
+		{"from":7,"to":2,"freq":1566},
+		{"from":7,"to":5,"freq":3253},
+		{"from":7,"to":7,"freq":3758},
+		{"from":7,"to":10,"freq":63660},
+		{"from":8,"to":5,"freq":2397},
+		{"from":9,"to":10,"freq":2397}
+	]
+}
